@@ -1,9 +1,9 @@
 # Создайте список из случайных чисел. Найдите максимальное количество
 # его одинаковых элементов.
 
-import random
+from random import randint
 
-lst = [random.randint(1, 10) for _ in range(10)]
+lst = [randint(0, 10) for _ in range(10)]
 print(lst)
 
 set_lst = set(lst)
